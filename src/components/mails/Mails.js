@@ -32,6 +32,7 @@ function Mails() {
                 paginate(mails);
     };
 
+    const truncate = (input, maxLength) => input.length > maxLength ? `${input.substring(0, maxLength)}...` : input;
     useEffect(() => {
         if (mails && mails.length > 0) {
             paginate(mails);
@@ -73,17 +74,17 @@ function Mails() {
 
                         {displayedMails.map((mail) =>
                             <tr key={mail.id}>
-                                < td > {mail.from} </td>
+                                < td > {truncate(mail.from,15)} </td>
                                 < td > 
                                 <div className="row mr-4">
-<div className="col"> {mail.to.join(' , ')} </div>
+<div className="col"> {truncate(mail.to.join(' , '),15)} </div>
 <div className="col-1">{  mail.repliesCount >0  &&  <span class="badge badge-secondary">+{mail.repliesCount}</span>}
             </div>
             </div>
                                 </td>
                                 < td > 
-                                <div className="row mr-2">
-<div className="col">  {mail.subject} </div>
+                                <div className="row mr-1">
+<div className="col"> {truncate(mail.subject,60)} </div>
 <div className="col-1">{  mail.hasAttachement  &&  <img className="mail-attachement-icon mr-2" src={AttachementIcon}  />}
             </div>
                                 </div>
@@ -144,14 +145,14 @@ function Mails() {
     </div>
     <div className="row">
     <div className="col">
-    <small>{mail.to.join(' , ')}</small>
+    <small>{truncate(mail.to.join(' , '),35)}</small>
     </div>
     <div className="col-1 mr-2">
     <span class="badge badge-secondary">+{mail.repliesCount}</span>
     </div>
         </div>
    
-    <p>{mail.subject}</p>
+    <p>{truncate(mail.subject,45)}</p>
 </div>
 
 
