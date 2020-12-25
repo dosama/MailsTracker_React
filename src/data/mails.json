@@ -1,0 +1,91 @@
+[{
+        "id":"d376aecd-8631-473a-bc26-af91ad1fc72a",
+        "from":"aaa@example.com",
+        "to":["zzz.zzz@example.com"],
+        "subject":"[ HR-888 ] Notice of official announcement",
+        "date":"0:20",
+        "replyiesCount":0,
+        "hasAttachement":false
+    },
+{
+    "id":"026a82ef-23dc-4599-8f11-175390aadc80",
+    "from":"bbb.bbbb@example.com",
+    "to":["yyy@example.com"],
+    "subject":"[web:333] Web Contact",
+    "date":"0:10",
+    "replyiesCount":0,
+    "hasAttachement":false
+},
+{
+    "id":"58a6bc99-36c1-4379-8454-8b5af9e57560",
+    "from":"ccc@example.com",
+    "to":["xxx@example.com","yyy@example.com"],
+    "subject":"Happy New Year! Greetings for the New Year.",
+    "date":"0:00",
+    "replyiesCount":1,
+    "hasAttachement":true
+},
+{
+    "id":"92efa617-7717-40e0-b960-1473ea659d0f",
+    "from":"ddd.dddd@example.com",
+    "to":["vvv.vvv@example.com","wwww.wwww@example.com"],
+    "subject":"[HR-887(Revised: Office Expansion Project Team)] Notice of off vacation",
+    "date":"Jan 01",
+    "replyiesCount":1,
+    "hasAttachement":false
+},
+{
+    "id":"7828d15f-f81d-4d76-b9ff-487b2076fc2c",
+    "from":"eee@example.com",
+    "to":["sss@example.com","ttt@example.com"],
+    "subject":"[Github] Logout page",
+    "date":"Jan 01",
+    "replyiesCount":2,
+    "hasAttachement":false
+},
+{
+    "id":"e6bf63ab-341c-4afd-a75f-808c2c6b8627",
+    "from":"fff.ffff@example.com",
+    "to":["qqq.qqq@example.com"],
+    "subject":"[dev] Postfix 3.1.12 / 3.2.9 / 3.3.4 / 3.4.5",
+    "date":"Jan 01",
+    "replyiesCount":0,
+    "hasAttachement":false
+},
+{
+    "id":"79a0c4ca-2c51-4a92-84f7-41717224b1c4",
+    "from":"ggg@example.com",
+    "to":["ppp@example.com"],
+    "subject":"Re: [Github] Brush-up on loading animation",
+    "date":"Jan 01",
+    "replyiesCount":0,
+    "hasAttachement":false
+},
+{
+    "id":"67ff1bf5-f292-4801-9377-f22f85e56579",
+    "from":"hhh.hhh@example.com",
+    "to":["ooo.ooo@example.com"],
+    "subject":"Workplace Summary for sample, Inc.: Jun 2 - Jun 9",
+    "date":"Jan 01",
+    "replyiesCount":0,
+    "hasAttachement":true
+},
+{
+    "id":"095dea50-b3b5-42e4-bb46-36f81442bd55",
+    "from":"iii@example.com",
+    "to":["nnn@example.com"],
+    "subject":"I love you",
+    "date":"2019/12/31",
+    "replyiesCount":0,
+    "hasAttachement":true
+},
+{
+    "id":"095dea50-b3b5-42e4-bb46-36f81442bd50",
+    "from":"Pablo-Diego-José-Francisco@example.com",
+    "to":["Pablo-Diego-José-Francisco@example.com","nnn@example.com"],
+    "subject":"[info:888] ABC EQUIPMENT COMPANY",
+    "date":"2019/12/31",
+    "replyiesCount":0,
+    "hasAttachement":false
+}
+]
