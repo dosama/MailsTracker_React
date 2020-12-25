@@ -74,8 +74,22 @@ function Mails() {
                         {displayedMails.map((mail) =>
                             <tr key={mail.id}>
                                 < td > {mail.from} </td>
-                                < td > {mail.to.join(' , ')} </td>
-                                < td > {mail.subject} </td>
+                                < td > 
+                                <div className="row mr-4">
+<div className="col"> {mail.to.join(' , ')} </div>
+<div className="col-1">{  mail.repliesCount >0  &&  <span class="badge badge-secondary">+{mail.repliesCount}</span>}
+            </div>
+            </div>
+                                </td>
+                                < td > 
+                                <div className="row mr-2">
+<div className="col">  {mail.subject} </div>
+<div className="col-1">{  mail.hasAttachement  &&  <img className="mail-attachement-icon mr-2" src={AttachementIcon}  />}
+            </div>
+                                </div>
+                              
+                                
+                             </td>
                                 < td > <b>{mail.date}</b> </td>
                           </tr>
                         )}
@@ -128,7 +142,15 @@ function Mails() {
       <img className="mail-arrow-icon m-1" src={MailArrowIcon}  />
         </div>
     </div>
+    <div className="row">
+    <div className="col">
     <small>{mail.to.join(' , ')}</small>
+    </div>
+    <div className="col-1 mr-2">
+    <span class="badge badge-secondary">+{mail.repliesCount}</span>
+    </div>
+        </div>
+   
     <p>{mail.subject}</p>
 </div>
 

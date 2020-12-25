@@ -4,7 +4,7 @@
         "to":["zzz.zzz@example.com"],
         "subject":"[ HR-888 ] Notice of official announcement",
         "date":"0:20",
-        "replyiesCount":0,
+        "repliesCount":0,
         "hasAttachement":false
     },
 {
@@ -13,7 +13,7 @@
     "to":["yyy@example.com"],
     "subject":"[web:333] Web Contact",
     "date":"0:10",
-    "replyiesCount":0,
+    "repliesCount":0,
     "hasAttachement":false
 },
 {
@@ -22,7 +22,7 @@
     "to":["xxx@example.com","yyy@example.com"],
     "subject":"Happy New Year! Greetings for the New Year.",
     "date":"0:00",
-    "replyiesCount":1,
+    "repliesCount":1,
     "hasAttachement":true
 },
 {
@@ -31,7 +31,7 @@
     "to":["vvv.vvv@example.com","wwww.wwww@example.com"],
     "subject":"[HR-887(Revised: Office Expansion Project Team)] Notice of off vacation",
     "date":"Jan 01",
-    "replyiesCount":1,
+    "repliesCount":1,
     "hasAttachement":false
 },
 {
@@ -40,7 +40,7 @@
     "to":["sss@example.com","ttt@example.com"],
     "subject":"[Github] Logout page",
     "date":"Jan 01",
-    "replyiesCount":2,
+    "repliesCount":2,
     "hasAttachement":false
 },
 {
@@ -49,7 +49,7 @@
     "to":["qqq.qqq@example.com"],
     "subject":"[dev] Postfix 3.1.12 / 3.2.9 / 3.3.4 / 3.4.5",
     "date":"Jan 01",
-    "replyiesCount":0,
+    "repliesCount":0,
     "hasAttachement":false
 },
 {
@@ -58,7 +58,7 @@
     "to":["ppp@example.com"],
     "subject":"Re: [Github] Brush-up on loading animation",
     "date":"Jan 01",
-    "replyiesCount":0,
+    "repliesCount":0,
     "hasAttachement":false
 },
 {
@@ -67,7 +67,7 @@
     "to":["ooo.ooo@example.com"],
     "subject":"Workplace Summary for sample, Inc.: Jun 2 - Jun 9",
     "date":"Jan 01",
-    "replyiesCount":0,
+    "repliesCount":0,
     "hasAttachement":true
 },
 {
@@ -76,7 +76,7 @@
     "to":["nnn@example.com"],
     "subject":"I love you",
     "date":"2019/12/31",
-    "replyiesCount":0,
+    "repliesCount":0,
     "hasAttachement":true
 },
 {
@@ -85,7 +85,7 @@
     "to":["Pablo-Diego-José-Francisco@example.com","nnn@example.com"],
     "subject":"[info:888] ABC EQUIPMENT COMPANY",
     "date":"2019/12/31",
-    "replyiesCount":0,
+    "repliesCount":0,
     "hasAttachement":false
 }
 ]
