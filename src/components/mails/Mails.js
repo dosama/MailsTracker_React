@@ -57,7 +57,7 @@ function Mails() {
     return (
         <div className="Mails">
             <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <div className="default-color">Results: {displayedMails.length} mail(s)</div>
+                <div className="mail-headers">Results: {displayedMails.length} mail(s)</div>
             </div>
             <div className="d-none d-lg-block">
             <div className="table-responsive">
@@ -115,13 +115,13 @@ function Mails() {
             <div className="d-block d-lg-none">
             <div className="card bg-light p-2">
   <div class="divider-container">
-        <span>From</span>
+        <span className="mail-header-sm">From</span>
         <span class="divider" />   
-        <span>To</span>
+        <span className="mail-header-sm">To</span>
         <span class="divider" />   
-        <span>Subject</span>
+        <span className="mail-header-sm">Subject</span>
         <span class="divider" />   
-        <span>Date</span>
+        <span className="mail-header-sm">Date</span>
       </div>
 </div> 
 <div className="list-group">
@@ -129,7 +129,7 @@ function Mails() {
 {displayedMails.map((mail) =>
 
 <div key={mail.id} href="#" className="list-group-item list-group-item-action flex-column">
-<div className="row">
+<div className="row mail-content-sm">
     <div className="col-1 mt-2">
     <img className="mail-icon" src={MailIcon} />
     </div>
@@ -138,7 +138,7 @@ function Mails() {
         <div className="mail-from">{mail.from}</div>
         <div className="row">
         {  mail.hasAttachement  &&  <img className="mail-attachement-icon mr-2" src={AttachementIcon}  />
-     }
+     } 
     <small>{mail.date}</small>
       <img className="mail-arrow-icon m-1" src={MailArrowIcon}  />
         </div>
