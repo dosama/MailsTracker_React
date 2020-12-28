@@ -7,7 +7,7 @@ import HeaderArrowIcon  from '../../assets/icon_arrow01.svg';
 import MailArrowIcon  from '../../assets/icon_arrow02.svg';
 import AttachementIcon from '../../assets/icon_clip.svg'
 import MailBody from '../mail-body/MailBody';
-
+import LogiIcon from '../../assets/logo.png'
 function Mails() {
     const [mails, setMails] = useState([]);
     const [displayedMails, setDisplayedMails] = useState([]);
@@ -60,7 +60,9 @@ const onMailClose=()=>{
         <div className="Mails">
             <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <div className="mail-headers">Results: {displayedMails.length} mail(s)</div>
-            </div>
+                </div>
+            {displayedMails && displayedMails.length >0 ? 
+            <div className="row">
             <div className="d-none d-lg-block">
                 <div className="row">
                     <div className="col">
@@ -186,7 +188,15 @@ const onMailClose=()=>{
   
 </div>
 </div>
-          
+         
+            </div>
+:
+<div className="row col-md-12 empty-mails">
+             
+<img alt="" className="logo-icon m-1" src={LogiIcon} /> 
+    </div>
+}
+       
         </div>
 
     );

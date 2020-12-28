@@ -68,7 +68,17 @@ img {
 width:30px;
 height: 30px;
   }
-  
+  .empty-mails{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 150px;
+    margin-bottom: 100px;
+  }
+  .logo-icon{
+    width: 100px;
+    height: 100px;
+  }
   .header-arrow-icon ,.mail-arrow-icon{
     width:10px;
     height: 10px;
