@@ -5,7 +5,8 @@
         "subject":"[ HR-888 ] Notice of official announcement",
         "date":"0:20",
         "repliesCount":0,
-        "hasAttachement":false
+        "hasAttachement":false,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
     },
 {
     "id":"026a82ef-23dc-4599-8f11-175390aadc80",
@@ -14,7 +15,8 @@
     "subject":"[web:333] Web Contact",
     "date":"0:10",
     "repliesCount":0,
-    "hasAttachement":false
+    "hasAttachement":false,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 },
 {
     "id":"58a6bc99-36c1-4379-8454-8b5af9e57560",
@@ -23,7 +25,8 @@
     "subject":"Happy New Year! Greetings for the New Year.",
     "date":"0:00",
     "repliesCount":1,
-    "hasAttachement":true
+    "hasAttachement":true,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 },
 {
     "id":"92efa617-7717-40e0-b960-1473ea659d0f",
@@ -32,7 +35,8 @@
     "subject":"[HR-887(Revised: Office Expansion Project Team)] Notice of off vacation",
     "date":"Jan 01",
     "repliesCount":1,
-    "hasAttachement":false
+    "hasAttachement":false,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 },
 {
     "id":"7828d15f-f81d-4d76-b9ff-487b2076fc2c",
@@ -41,7 +45,8 @@
     "subject":"[Github] Logout page",
     "date":"Jan 01",
     "repliesCount":2,
-    "hasAttachement":false
+    "hasAttachement":false,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 },
 {
     "id":"e6bf63ab-341c-4afd-a75f-808c2c6b8627",
@@ -50,7 +55,8 @@
     "subject":"[dev] Postfix 3.1.12 / 3.2.9 / 3.3.4 / 3.4.5",
     "date":"Jan 01",
     "repliesCount":0,
-    "hasAttachement":false
+    "hasAttachement":false,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 },
 {
     "id":"79a0c4ca-2c51-4a92-84f7-41717224b1c4",
@@ -59,7 +65,8 @@
     "subject":"Re: [Github] Brush-up on loading animation",
     "date":"Jan 01",
     "repliesCount":0,
-    "hasAttachement":false
+    "hasAttachement":false,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 },
 {
     "id":"67ff1bf5-f292-4801-9377-f22f85e56579",
@@ -68,7 +75,8 @@
     "subject":"Workplace Summary for sample, Inc.: Jun 2 - Jun 9",
     "date":"Jan 01",
     "repliesCount":0,
-    "hasAttachement":true
+    "hasAttachement":true,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 },
 {
     "id":"095dea50-b3b5-42e4-bb46-36f81442bd55",
@@ -77,7 +85,8 @@
     "subject":"I love you",
     "date":"2019/12/31",
     "repliesCount":0,
-    "hasAttachement":true
+    "hasAttachement":true,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 },
 {
     "id":"095dea50-b3b5-42e4-bb46-36f81442bd50",
@@ -86,6 +95,7 @@
     "subject":"[info:888] ABC EQUIPMENT COMPANY",
     "date":"2019/12/31",
     "repliesCount":0,
-    "hasAttachement":false
+    "hasAttachement":false,
+    "mailBody":"Dear Hiring Manager, Mail Body Content Here  Regards, Dosama"
 }
 ]

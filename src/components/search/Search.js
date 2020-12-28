@@ -1,4 +1,4 @@
-import React ,{useState, useEffect}from 'react';
+import React ,{useState}from 'react';
 import './Search.css';
 
 function Search() {
@@ -8,11 +8,11 @@ function Search() {
   <div  className="Search w-100">
      
      <div className="headerSearch__calendarwrap">
-     <button class="headerSearch__calendar sc-ir" >Calendar</button>
+     <button className="headerSearch__calendar sc-ir" >Calendar</button>
    </div>
-    <input value={value}></input>
+    <input defaultValue={value}></input>
       <div className="headerSearch__submitwrap">
-      <button class="headerSearch__submit sc-ir">Search</button>
+      <button className="headerSearch__submit sc-ir">Search</button>
       </div>
 
  </div>
