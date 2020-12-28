@@ -3,7 +3,7 @@
     display: block;
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
+    padding-left: 30px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -11,10 +11,13 @@
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
-    border-radius: .25rem;
+    border-radius: .5rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
 
+  .Search button:focus, input:focus{
+    outline: none !important;
+}
   #react-autowhatever-1 ul  {
     padding-inline-start: 0px;
   }
@@ -46,7 +49,38 @@
 }
 
 
-  /* .form-control-dark:focus {
-    border-color: transparent;
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
-  } */
+.headerSearch__submit {
+  background: url(../../assets/icon_search.svg) 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.headerSearch__submitwrap {
+  border-radius: 0 .5rem .5rem 0;
+  padding-left: 7px;
+  width: 40px;
+  height: 38px;
+  background-color: #dee2e6;
+  border: 1px solid #ced4da;
+  position: absolute;
+  right: 15px;
+  top: 0px;
+}
+
+.headerSearch__calendar {
+  border: 0;
+  padding: 0;
+  background: url(../../assets/icon_calender.svg) 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 25px;
+  top: 10px;
+
+}
+.sc-ir {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: transparent;
+}

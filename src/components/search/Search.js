@@ -63,15 +63,13 @@ const inputProps = {
   return (
   <div  className="Search w-100">
      
-      <Autosuggest
-        suggestions={suggestions}
-        onSuggestionsFetchRequested={onSuggestionsFetchRequested}
-        onSuggestionsClearRequested={onSuggestionsClearRequested}
-        getSuggestionValue={getSuggestionValue}
-        renderSuggestion={renderSuggestion}
-        inputProps={inputProps}
-      />
- 
+     <div className="headerSearch__calendarwrap">
+     <button class="headerSearch__calendar sc-ir" >Calendar</button>
+   </div>
+    <input ></input>
+      <div className="headerSearch__submitwrap">
+      <button class="headerSearch__submit sc-ir">Search</button>
+      </div>
 
  </div>
 
