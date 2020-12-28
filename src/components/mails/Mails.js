@@ -4,6 +4,7 @@ import './Mails.css';
 import ReactPaginate from 'react-paginate';
 import mailSearchEvent from '../events/mail-search-event';
 import MailIcon  from '../../assets/icon_mail_sp.svg';
+import HeaderArrowIcon  from '../../assets/icon_arrow01.svg';
 import MailArrowIcon  from '../../assets/icon_arrow02.svg';
 import AttachementIcon from '../../assets/icon_clip.svg'
 
@@ -67,7 +68,11 @@ function Mails() {
                             <th>From</th>
                             <th>To</th>
                             <th>Subject</th>
-                            <th>Date</th>
+                            <th>
+                            <div className="row col-md-12 mr-1">Date 
+      <img className="header-arrow-icon m-1" src={HeaderArrowIcon} />
+      </div>
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -115,13 +120,18 @@ function Mails() {
             <div className="d-block d-lg-none">
             <div className="card bg-light p-2">
   <div class="divider-container">
-        <span className="mail-header-sm">From</span>
-        <span class="divider" />   
-        <span className="mail-header-sm">To</span>
-        <span class="divider" />   
-        <span className="mail-header-sm">Subject</span>
-        <span class="divider" />   
-        <span className="mail-header-sm">Date</span>
+      <div className="row ml-3">
+        <span className="mail-header-sm m-1"><div className="row mr-1">From 
+      <img className="header-arrow-icon m-1" src={HeaderArrowIcon} />
+      </div>
+      </span>
+        <span class="divider m-1" />   
+        <span className="mail-header-sm m-1">To</span>
+        <span class="divider m-1" />   
+        <span className="mail-header-sm m-1">Subject</span>
+        <span class="divider m-1" />   
+        <span className="mail-header-sm m-1">Date</span>
+        </div>
       </div>
 </div> 
 <div className="list-group">
@@ -135,7 +145,7 @@ function Mails() {
     </div>
     <div className="col">
     <div  className="d-flex w-100 justify-content-between">
-        <div className="mail-from">{mail.from}</div>
+        <div className="mail-from">{mail.from} </div>
         <div className="row">
         {  mail.hasAttachement  &&  <img className="mail-attachement-icon mr-2" src={AttachementIcon}  />
      } 

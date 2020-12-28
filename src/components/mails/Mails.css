@@ -69,12 +69,12 @@ width:30px;
 height: 30px;
   }
   
-  .mail-arrow-icon{
+  .header-arrow-icon ,.mail-arrow-icon{
     width:10px;
     height: 10px;
       }
     
-      .mail-attachement-icon{
+       .mail-attachement-icon{
         width:20px;
         height: 20px;
           }
@@ -99,3 +99,4 @@ height: 30px;
             line-height: normal;
             color: #666666;
           }
+     

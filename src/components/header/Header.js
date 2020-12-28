@@ -6,7 +6,7 @@ function Header() {
   return (
   <div  className="Header">
    <header className="navbar sticky-top flex-md-nowrap p-4 shadow">
-   <div className="col-md-6 col-lg-2">
+   <div className="col-md-6 col-lg-3">
    <Search></Search>
   </div>
 </header>

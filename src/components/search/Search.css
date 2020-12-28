@@ -1,9 +1,11 @@
  
+
+
   .Search input {
     display: block;
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
-    padding-left: 30px;
+    padding-left: 35px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -18,28 +20,7 @@
   .Search button:focus, input:focus{
     outline: none !important;
 }
-  #react-autowhatever-1 ul  {
-    padding-inline-start: 0px;
-  }
-
-  #react-autowhatever-1 ul li div {
-    position: relative;
-    display: block;
-    padding: .75rem 1.25rem;
-    margin-bottom: -1px;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-  }
-
-  #react-autowhatever-1 {
-    position: relative;
-    display: block;
-    padding: 0px;
-    margin-bottom: -1px;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-  }
-
+ 
 ::marker {
     unicode-bidi: isolate;
     font-variant-numeric: tabular-nums;
